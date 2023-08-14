@@ -1,6 +1,6 @@
 Code for Beginners Python
 ## To print a statement
-print("Hello, World!")
+print("Hello  World!")
 
 # User gives the input
   a = int(input("enter first number:"))
@@ -14,6 +14,7 @@ num2 = 6
 sum = num1 + num2
 # print 
 print(sum)
+
 # intialize
 i = 1
 while i < 6:
