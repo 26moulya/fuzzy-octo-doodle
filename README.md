@@ -51,7 +51,71 @@ else:
 x=10
 y=30
 print(x+y)
+
+## swap
+def swapList(newList):
+    size = len(newList)
+     
+    # Swapping
+    temp = newList[0]
+    newList[0] = newList[size - 1]
+    newList[size - 1] = temp
+     
+    return newList
+     
+# Driver code
+newList = [12 ,35, 9, 56, 24]
+ 
+print(swapList(newList))
+ ##usage of star
+ list = [1, 2, 3, 4]
+ 
+a, *b, c = list
+ 
+print(a)
+print(b)
+print(c)
+## palindrome
+
+string = 'moulya'
+half = int(len(string) / 2)
+ 
+ 
+first_str = string[:half]
+second_str = string[half:]
+ 
+ 
+# symmetric
+if first_str == second_str:
+    print(string, 'string is symmetrical')
+else:
+    print(string, 'string is not symmetrical')
+ 
+# palindrome
+if first_str == second_str[::-1]:  # ''.join(reversed(second_str)) [slower]
+    print(string, 'string is palindrome')
+else:
+    print(string, 'string is not palindrome'
+
+    
+  ## digit pattern
+
+def pattern(n): 
   
+    # traverse through the elements 
+    # in n assuming it as a string 
+    for i in n: 
+  
+        # print | for every line 
+        print("|", end = "") 
+  
+        # print i number of * s in 
+        # each line 
+        print("*" * int(i)) 
+  
+# get the input as string         
+n = "41325"
+pattern(n)
 
 
 
